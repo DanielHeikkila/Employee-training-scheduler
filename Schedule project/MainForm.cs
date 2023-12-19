@@ -616,7 +616,7 @@ namespace Schedule_project
                                 employee.Essity1Year, employee.TampereenSahkolaitos, employee.NvE, employee.Sandvik, employee.Other);
                 }
                 isProgrammaticEdit = false;
-            }//0467101361////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////22/01/2024//10:00//1st floor/ imaging queue number
+            }
         }
 
         private void rowSelectedUnselected(object sender, EventArgs e)
