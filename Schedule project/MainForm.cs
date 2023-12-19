@@ -126,7 +126,7 @@ namespace Schedule_project
         {
             excelApp = new Excel.Application();
             // Open the Excel workbook
-            workbook = excelApp.Workbooks.Open(@"C:\Users\danie.DANIELS_PC\OneDrive\Desktop\TYÖNTEKIJÄREKISTERI JTOL.xlsx");
+            workbook = excelApp.Workbooks.Open(@"/*FOLDERHERE*/");
             worksheet = workbook.Sheets[1];
             usedRange = worksheet.UsedRange;
             int rowCount = usedRange.Rows.Count;
