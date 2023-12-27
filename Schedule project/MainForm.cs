@@ -857,7 +857,7 @@ namespace Schedule_project
                     }
 
                     // Open the Excel workbook
-                    workbook = excelApp.Workbooks.Open(@"C:\Users\danie.DANIELS_PC\OneDrive\Desktop\TYÖNTEKIJÄREKISTERI JTOL.xlsx");
+                    workbook = excelApp.Workbooks.Open(@"PATH HERE");
                     try
                     {
                         worksheet = workbook.Sheets[1];
