@@ -30,17 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.CheckAllBox = new System.Windows.Forms.CheckBox();
+            this.LanguageSelectionBox = new System.Windows.Forms.ComboBox();
+            this.UndoButton = new System.Windows.Forms.Button();
             this.referenceLabel = new System.Windows.Forms.Label();
             this.deleteButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.BackButton = new System.Windows.Forms.Button();
+            this.TwoFactorLabel = new System.Windows.Forms.Label();
             this.twoFactorBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.ServiceLabel = new System.Windows.Forms.Label();
             this.serviceTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.EmailLabel = new System.Windows.Forms.Label();
+            this.EmailConfirmButton = new System.Windows.Forms.Button();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.EmailButton = new System.Windows.Forms.Button();
@@ -62,7 +66,6 @@
             this.FireDateBox = new System.Windows.Forms.CheckBox();
             this.FamiliarizedBox = new System.Windows.Forms.CheckBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.AddEmployeeButton = new System.Windows.Forms.Button();
             this.NameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FamiliarizedColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FireWorkingDateColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -81,6 +84,7 @@
             this.NvEColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SandvikColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.OtherColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AddEmployeeButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -88,6 +92,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.CheckAllBox);
+            this.panel1.Controls.Add(this.LanguageSelectionBox);
+            this.panel1.Controls.Add(this.UndoButton);
             this.panel1.Controls.Add(this.referenceLabel);
             this.panel1.Controls.Add(this.deleteButton);
             this.panel1.Controls.Add(this.panel2);
@@ -116,6 +123,39 @@
             this.panel1.Size = new System.Drawing.Size(1489, 830);
             this.panel1.TabIndex = 0;
             // 
+            // CheckAllBox
+            // 
+            this.CheckAllBox.AutoSize = true;
+            this.CheckAllBox.Location = new System.Drawing.Point(40, 145);
+            this.CheckAllBox.Name = "CheckAllBox";
+            this.CheckAllBox.Size = new System.Drawing.Size(52, 24);
+            this.CheckAllBox.TabIndex = 39;
+            this.CheckAllBox.Text = "All";
+            this.CheckAllBox.UseVisualStyleBackColor = true;
+            this.CheckAllBox.CheckStateChanged += new System.EventHandler(this.Check_Uncheck);
+            // 
+            // LanguageSelectionBox
+            // 
+            this.LanguageSelectionBox.FormattingEnabled = true;
+            this.LanguageSelectionBox.Items.AddRange(new object[] {
+            "EN",
+            "FI"});
+            this.LanguageSelectionBox.Location = new System.Drawing.Point(1423, 11);
+            this.LanguageSelectionBox.Name = "LanguageSelectionBox";
+            this.LanguageSelectionBox.Size = new System.Drawing.Size(52, 28);
+            this.LanguageSelectionBox.TabIndex = 1;
+            this.LanguageSelectionBox.SelectedValueChanged += new System.EventHandler(this.LanguageSelectionBox1_SelectedValueChanged);
+            // 
+            // UndoButton
+            // 
+            this.UndoButton.Location = new System.Drawing.Point(309, 3);
+            this.UndoButton.Name = "UndoButton";
+            this.UndoButton.Size = new System.Drawing.Size(102, 36);
+            this.UndoButton.TabIndex = 1;
+            this.UndoButton.Text = "Undo";
+            this.UndoButton.UseVisualStyleBackColor = true;
+            this.UndoButton.Click += new System.EventHandler(this.UndoButton_Click);
+            // 
             // referenceLabel
             // 
             this.referenceLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -140,14 +180,15 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.BackButton);
+            this.panel2.Controls.Add(this.TwoFactorLabel);
             this.panel2.Controls.Add(this.twoFactorBox);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.ServiceLabel);
             this.panel2.Controls.Add(this.serviceTextBox);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.PasswordLabel);
+            this.panel2.Controls.Add(this.EmailLabel);
+            this.panel2.Controls.Add(this.EmailConfirmButton);
             this.panel2.Controls.Add(this.passwordTextBox);
             this.panel2.Controls.Add(this.emailTextBox);
             this.panel2.Location = new System.Drawing.Point(276, 116);
@@ -156,14 +197,24 @@
             this.panel2.TabIndex = 0;
             this.panel2.Visible = false;
             // 
-            // label5
+            // BackButton
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(110, 544);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(357, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "App specific password (two-factor authentication)";
+            this.BackButton.Location = new System.Drawing.Point(556, 550);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(161, 57);
+            this.BackButton.TabIndex = 10;
+            this.BackButton.Text = "Back";
+            this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
+            // 
+            // TwoFactorLabel
+            // 
+            this.TwoFactorLabel.AutoSize = true;
+            this.TwoFactorLabel.Location = new System.Drawing.Point(110, 544);
+            this.TwoFactorLabel.Name = "TwoFactorLabel";
+            this.TwoFactorLabel.Size = new System.Drawing.Size(357, 20);
+            this.TwoFactorLabel.TabIndex = 9;
+            this.TwoFactorLabel.Text = "App specific password (two-factor authentication)";
             // 
             // twoFactorBox
             // 
@@ -182,14 +233,14 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Options: Gmail, Outlook and Yahoo";
             // 
-            // label3
+            // ServiceLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(110, 378);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 20);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Email service";
+            this.ServiceLabel.AutoSize = true;
+            this.ServiceLabel.Location = new System.Drawing.Point(110, 378);
+            this.ServiceLabel.Name = "ServiceLabel";
+            this.ServiceLabel.Size = new System.Drawing.Size(101, 20);
+            this.ServiceLabel.TabIndex = 6;
+            this.ServiceLabel.Text = "Email service";
             // 
             // serviceTextBox
             // 
@@ -200,33 +251,33 @@
             this.serviceTextBox.Text = "Outlook";
             this.serviceTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label2
+            // PasswordLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(110, 212);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Email password";
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(110, 212);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(120, 20);
+            this.PasswordLabel.TabIndex = 4;
+            this.PasswordLabel.Text = "Email password";
             // 
-            // label1
+            // EmailLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(110, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Email Username";
+            this.EmailLabel.AutoSize = true;
+            this.EmailLabel.Location = new System.Drawing.Point(110, 46);
+            this.EmailLabel.Name = "EmailLabel";
+            this.EmailLabel.Size = new System.Drawing.Size(126, 20);
+            this.EmailLabel.TabIndex = 3;
+            this.EmailLabel.Text = "Email Username";
             // 
-            // button1
+            // EmailConfirmButton
             // 
-            this.button1.Location = new System.Drawing.Point(742, 550);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(274, 57);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Confirm Email credentials";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.EmailConfirmButton.Location = new System.Drawing.Point(742, 550);
+            this.EmailConfirmButton.Name = "EmailConfirmButton";
+            this.EmailConfirmButton.Size = new System.Drawing.Size(274, 57);
+            this.EmailConfirmButton.TabIndex = 4;
+            this.EmailConfirmButton.Text = "Confirm Email credentials";
+            this.EmailConfirmButton.UseVisualStyleBackColor = true;
+            this.EmailConfirmButton.Click += new System.EventHandler(this.EmailConfirmButton_Click);
             // 
             // passwordTextBox
             // 
@@ -257,7 +308,7 @@
             // WorkSafetyTrainingBox
             // 
             this.WorkSafetyTrainingBox.AutoSize = true;
-            this.WorkSafetyTrainingBox.Location = new System.Drawing.Point(40, 270);
+            this.WorkSafetyTrainingBox.Location = new System.Drawing.Point(40, 320);
             this.WorkSafetyTrainingBox.Name = "WorkSafetyTrainingBox";
             this.WorkSafetyTrainingBox.Size = new System.Drawing.Size(242, 24);
             this.WorkSafetyTrainingBox.TabIndex = 34;
@@ -268,7 +319,7 @@
             // OtherBox
             // 
             this.OtherBox.AutoSize = true;
-            this.OtherBox.Location = new System.Drawing.Point(40, 690);
+            this.OtherBox.Location = new System.Drawing.Point(40, 740);
             this.OtherBox.Name = "OtherBox";
             this.OtherBox.Size = new System.Drawing.Size(75, 24);
             this.OtherBox.TabIndex = 33;
@@ -279,7 +330,7 @@
             // SandvikBox
             // 
             this.SandvikBox.AutoSize = true;
-            this.SandvikBox.Location = new System.Drawing.Point(40, 655);
+            this.SandvikBox.Location = new System.Drawing.Point(40, 705);
             this.SandvikBox.Name = "SandvikBox";
             this.SandvikBox.Size = new System.Drawing.Size(91, 24);
             this.SandvikBox.TabIndex = 31;
@@ -290,7 +341,7 @@
             // NvEBox
             // 
             this.NvEBox.AutoSize = true;
-            this.NvEBox.Location = new System.Drawing.Point(40, 620);
+            this.NvEBox.Location = new System.Drawing.Point(40, 670);
             this.NvEBox.Name = "NvEBox";
             this.NvEBox.Size = new System.Drawing.Size(64, 24);
             this.NvEBox.TabIndex = 29;
@@ -301,7 +352,7 @@
             // TampereenSBox
             // 
             this.TampereenSBox.AutoSize = true;
-            this.TampereenSBox.Location = new System.Drawing.Point(40, 585);
+            this.TampereenSBox.Location = new System.Drawing.Point(40, 635);
             this.TampereenSBox.Name = "TampereenSBox";
             this.TampereenSBox.Size = new System.Drawing.Size(203, 24);
             this.TampereenSBox.TabIndex = 27;
@@ -312,7 +363,7 @@
             // Essity1YBox
             // 
             this.Essity1YBox.AutoSize = true;
-            this.Essity1YBox.Location = new System.Drawing.Point(40, 550);
+            this.Essity1YBox.Location = new System.Drawing.Point(40, 600);
             this.Essity1YBox.Name = "Essity1YBox";
             this.Essity1YBox.Size = new System.Drawing.Size(128, 24);
             this.Essity1YBox.TabIndex = 25;
@@ -323,7 +374,7 @@
             // NokianRLOTOBox
             // 
             this.NokianRLOTOBox.AutoSize = true;
-            this.NokianRLOTOBox.Location = new System.Drawing.Point(40, 515);
+            this.NokianRLOTOBox.Location = new System.Drawing.Point(40, 565);
             this.NokianRLOTOBox.Name = "NokianRLOTOBox";
             this.NokianRLOTOBox.Size = new System.Drawing.Size(186, 24);
             this.NokianRLOTOBox.TabIndex = 23;
@@ -334,7 +385,7 @@
             // NokianR1YBox
             // 
             this.NokianR1YBox.AutoSize = true;
-            this.NokianR1YBox.Location = new System.Drawing.Point(40, 480);
+            this.NokianR1YBox.Location = new System.Drawing.Point(40, 530);
             this.NokianR1YBox.Name = "NokianR1YBox";
             this.NokianR1YBox.Size = new System.Drawing.Size(191, 24);
             this.NokianR1YBox.TabIndex = 21;
@@ -345,7 +396,7 @@
             // TaxBox
             // 
             this.TaxBox.AutoSize = true;
-            this.TaxBox.Location = new System.Drawing.Point(40, 445);
+            this.TaxBox.Location = new System.Drawing.Point(40, 495);
             this.TaxBox.Name = "TaxBox";
             this.TaxBox.Size = new System.Drawing.Size(120, 24);
             this.TaxBox.TabIndex = 19;
@@ -356,7 +407,7 @@
             // ValttikorttiBox
             // 
             this.ValttikorttiBox.AutoSize = true;
-            this.ValttikorttiBox.Location = new System.Drawing.Point(40, 410);
+            this.ValttikorttiBox.Location = new System.Drawing.Point(40, 460);
             this.ValttikorttiBox.Name = "ValttikorttiBox";
             this.ValttikorttiBox.Size = new System.Drawing.Size(106, 24);
             this.ValttikorttiBox.TabIndex = 17;
@@ -367,7 +418,7 @@
             // FirstAidBox
             // 
             this.FirstAidBox.AutoSize = true;
-            this.FirstAidBox.Location = new System.Drawing.Point(40, 375);
+            this.FirstAidBox.Location = new System.Drawing.Point(40, 425);
             this.FirstAidBox.Name = "FirstAidBox";
             this.FirstAidBox.Size = new System.Drawing.Size(153, 24);
             this.FirstAidBox.TabIndex = 15;
@@ -378,7 +429,7 @@
             // LiveBox
             // 
             this.LiveBox.AutoSize = true;
-            this.LiveBox.Location = new System.Drawing.Point(40, 340);
+            this.LiveBox.Location = new System.Drawing.Point(40, 390);
             this.LiveBox.Name = "LiveBox";
             this.LiveBox.Size = new System.Drawing.Size(185, 24);
             this.LiveBox.TabIndex = 13;
@@ -389,7 +440,7 @@
             // ElectricalSafetyBox
             // 
             this.ElectricalSafetyBox.AutoSize = true;
-            this.ElectricalSafetyBox.Location = new System.Drawing.Point(40, 305);
+            this.ElectricalSafetyBox.Location = new System.Drawing.Point(40, 355);
             this.ElectricalSafetyBox.Name = "ElectricalSafetyBox";
             this.ElectricalSafetyBox.Size = new System.Drawing.Size(209, 24);
             this.ElectricalSafetyBox.TabIndex = 11;
@@ -400,7 +451,7 @@
             // WorkSafetyBox
             // 
             this.WorkSafetyBox.AutoSize = true;
-            this.WorkSafetyBox.Location = new System.Drawing.Point(40, 235);
+            this.WorkSafetyBox.Location = new System.Drawing.Point(40, 285);
             this.WorkSafetyBox.Name = "WorkSafetyBox";
             this.WorkSafetyBox.Size = new System.Drawing.Size(182, 24);
             this.WorkSafetyBox.TabIndex = 7;
@@ -411,7 +462,7 @@
             // FireNumberBox
             // 
             this.FireNumberBox.AutoSize = true;
-            this.FireNumberBox.Location = new System.Drawing.Point(40, 200);
+            this.FireNumberBox.Location = new System.Drawing.Point(40, 250);
             this.FireNumberBox.Name = "FireNumberBox";
             this.FireNumberBox.Size = new System.Drawing.Size(184, 24);
             this.FireNumberBox.TabIndex = 5;
@@ -422,7 +473,7 @@
             // FireDateBox
             // 
             this.FireDateBox.AutoSize = true;
-            this.FireDateBox.Location = new System.Drawing.Point(40, 165);
+            this.FireDateBox.Location = new System.Drawing.Point(40, 215);
             this.FireDateBox.Name = "FireDateBox";
             this.FireDateBox.Size = new System.Drawing.Size(163, 24);
             this.FireDateBox.TabIndex = 3;
@@ -433,7 +484,7 @@
             // FamiliarizedBox
             // 
             this.FamiliarizedBox.AutoSize = true;
-            this.FamiliarizedBox.Location = new System.Drawing.Point(40, 130);
+            this.FamiliarizedBox.Location = new System.Drawing.Point(40, 180);
             this.FamiliarizedBox.Name = "FamiliarizedBox";
             this.FamiliarizedBox.Size = new System.Drawing.Size(119, 24);
             this.FamiliarizedBox.TabIndex = 2;
@@ -467,20 +518,14 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1079, 766);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dataGridView1_CellBeginEdit);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
+            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.rowSelectedUnselected);
-            // 
-            // AddEmployeeButton
-            // 
-            this.AddEmployeeButton.Location = new System.Drawing.Point(40, 95);
-            this.AddEmployeeButton.Name = "AddEmployeeButton";
-            this.AddEmployeeButton.Size = new System.Drawing.Size(192, 29);
-            this.AddEmployeeButton.TabIndex = 0;
-            this.AddEmployeeButton.Text = "Add new employee";
-            this.AddEmployeeButton.UseVisualStyleBackColor = true;
-            this.AddEmployeeButton.Click += new System.EventHandler(this.Add_Click);
             // 
             // NameColumn
             // 
@@ -608,6 +653,16 @@
             this.OtherColumn.Name = "OtherColumn";
             this.OtherColumn.Width = 150;
             // 
+            // AddEmployeeButton
+            // 
+            this.AddEmployeeButton.Location = new System.Drawing.Point(40, 95);
+            this.AddEmployeeButton.Name = "AddEmployeeButton";
+            this.AddEmployeeButton.Size = new System.Drawing.Size(192, 29);
+            this.AddEmployeeButton.TabIndex = 0;
+            this.AddEmployeeButton.Text = "Add new employee";
+            this.AddEmployeeButton.UseVisualStyleBackColor = true;
+            this.AddEmployeeButton.Click += new System.EventHandler(this.Add_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -655,15 +710,15 @@
         private System.Windows.Forms.CheckBox WorkSafetyTrainingBox;
         private System.Windows.Forms.Button EmailButton;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label PasswordLabel;
+        private System.Windows.Forms.Label EmailLabel;
+        private System.Windows.Forms.Button EmailConfirmButton;
         private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label ServiceLabel;
         private System.Windows.Forms.TextBox serviceTextBox;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label TwoFactorLabel;
         private System.Windows.Forms.TextBox twoFactorBox;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Label referenceLabel;
@@ -685,6 +740,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NvEColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn SandvikColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherColumn;
+        private System.Windows.Forms.Button UndoButton;
+        private System.Windows.Forms.ComboBox LanguageSelectionBox;
+        private System.Windows.Forms.Button BackButton;
+        private System.Windows.Forms.CheckBox CheckAllBox;
     }
 }
 

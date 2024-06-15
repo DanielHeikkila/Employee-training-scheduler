@@ -69,5 +69,15 @@ namespace Schedule_project.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] TYÖNTEKIJÄREKISTERI_JTOL {
+            get {
+                object obj = ResourceManager.GetObject("TYÖNTEKIJÄREKISTERI_JTOL", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

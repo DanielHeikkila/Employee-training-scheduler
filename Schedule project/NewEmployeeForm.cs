@@ -1,15 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ScrollBar;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Schedule_project
 {
@@ -22,6 +13,7 @@ namespace Schedule_project
             panel1.Size = new Size(this.ClientSize.Width - 20, this.ClientSize.Height - 35);
             DialogResult = DialogResult.Cancel;
             NewEmployeeForm_Resize();
+            LanguageSelectionBox.SelectedIndex = 1;
         }
         private void NewEmployeeForm_Resize(object sender, EventArgs e)
         {
@@ -36,39 +28,79 @@ namespace Schedule_project
             NameCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.085));
             CreateNameLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.050));
             FireWorkingDateCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.172));
-            label1.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.138));
+            FireWorkingDateCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.138));
             FireWorkingNumberCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.259));
-            label2.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.225));
+            FireWorkingNumberCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.225));
             WorkSafetyTrainingCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.346));
-            label5.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.312));
+            WorkSafetyTrainingCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.312));
             WorkSafetyTrainingNumberCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.433));
-            label4.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.399));
+            WorkSafetyTrainingNumberCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.399));
             ElectricalSafetyTrainingCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.51975));
-            label3.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.486));
+            ElectricalSafetyTrainingCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.486));
             LiveWorkingTrainingCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.6067));
-            label15.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.573));
+            LiveWorkingTrainingCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.573));
             FirstAidTrainingCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.694));
-            label14.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.6602));
+            FirstAidTrainingCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.6602));
             ValttikorttiCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.085));
-            label11.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.050));
+            ValttikorttiCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.050));
             TaxNumberCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.172));
-            label10.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.138));
+            TaxNumberCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.138));
             NokianRenkat1YearCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.259));
-            label9.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.225));
+            NokianRenkat1YearCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.225));
             NokianRenkatLOTOCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.346));
-            label8.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.312));
+            NokianRenkatLOTOCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.312));
             Esstity1YearCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.433));
-            label7.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.399));
+            Esstity1YearCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.399));
             TampereenSahkolaitosCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.51975));
-            label6.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.486));
+            TampereenSahkolaitosCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.486));
             NvECreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.6067));
-            label13.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.573));
+            NvECreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.573));
             SandvikCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.694));
-            label12.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.6602));
+            SandvikCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.4), (int)(this.referenceLabel.Location.Y * 0.6602));
             OtherCreationBox.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.829));
-            label16.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.794));
+            OtherCreationLabel.Location = new Point((int)(this.referenceLabel.Location.X * 0.0276), (int)(this.referenceLabel.Location.Y * 0.794));
             CreateCreationButton.Size = new Size((int)(this.panel1.Width * 0.184), (int)(this.panel1.Height * 0.069));
             CreateCreationButton.Location = new Point((int)(this.referenceLabel.Location.X * 0.6), (int)(this.referenceLabel.Location.Y * 0.829));
+            if (panel1.Size.Width > 800)
+            {
+                NameCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                FireWorkingDateCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                FireWorkingNumberCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                WorkSafetyTrainingCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                WorkSafetyTrainingNumberCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                ElectricalSafetyTrainingCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                LiveWorkingTrainingCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                FirstAidTrainingCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                ValttikorttiCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                TaxNumberCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                NokianRenkat1YearCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                NokianRenkatLOTOCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                Esstity1YearCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                TampereenSahkolaitosCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                NvECreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                SandvikCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+                OtherCreationBox.Size = new Size((int)(this.panel1.Width * 0.295), 26);
+            }
+            else
+            {
+                NameCreationBox.Size = new Size(240, 26);
+                FireWorkingDateCreationBox.Size = new Size(240, 26);
+                FireWorkingNumberCreationBox.Size = new Size(240, 26);
+                WorkSafetyTrainingCreationBox.Size = new Size(240, 26);
+                WorkSafetyTrainingNumberCreationBox.Size = new Size(240, 26);
+                ElectricalSafetyTrainingCreationBox.Size = new Size(240, 26);
+                LiveWorkingTrainingCreationBox.Size = new Size(240, 26);
+                FirstAidTrainingCreationBox.Size = new Size(240, 26);
+                ValttikorttiCreationBox.Size = new Size(240, 26);
+                TaxNumberCreationBox.Size = new Size(240, 26);
+                NokianRenkat1YearCreationBox.Size = new Size(240, 26);
+                NokianRenkatLOTOCreationBox.Size = new Size(240, 26);
+                Esstity1YearCreationBox.Size = new Size(240, 26);
+                TampereenSahkolaitosCreationBox.Size = new Size(240, 26);
+                NvECreationBox.Size = new Size(240, 26);
+                SandvikCreationBox.Size = new Size(240, 26);
+                OtherCreationBox.Size = new Size(240, 26);
+            }
         }
 
         public void CreateCreationButton_Click(object sender, EventArgs e)
@@ -115,6 +147,46 @@ namespace Schedule_project
             if ((e.KeyCode == Keys.Enter) || (e.KeyCode == Keys.Return))
             {
                 this.SelectNextControl((Control)sender, true, true, true, true);
+            }
+        }
+
+        private void LanguageSelectionBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (LanguageSelectionBox.Text == "EN")
+            {
+                NewEmployeeLanguageEnglish language = Language.NewEmployeeLanguageSelectEng();
+                CreateNameLabel.Text = language.CreateNameLabel;
+                FireWorkingDateCreationLabel.Text = language.FireWorkingDateCreationLabel;
+                FireWorkingNumberCreationLabel.Text = language.FireWorkingNumberCreationLabel;
+                WorkSafetyTrainingCreationLabel.Text = language.WorkSafetyTrainingCreationLabel;
+                WorkSafetyTrainingNumberCreationLabel.Text = language.WorkSafetyTrainingNumberCreationLabel;
+                ElectricalSafetyTrainingCreationLabel.Text = language.ElectricalSafetyTrainingCreationLabel;
+                LiveWorkingTrainingCreationLabel.Text = language.LiveWorkingTrainingCreationLabel;
+                FirstAidTrainingCreationLabel.Text = language.FirstAidTrainingCreationLabel;
+                TaxNumberCreationLabel.Text = language.TaxNumberCreationLabel;
+                NokianRenkat1YearCreationLabel.Text = language.NokianRenkat1YearCreationLabel;
+                Esstity1YearCreationLabel.Text = language.Esstity1YearCreationLabel;
+                OtherCreationLabel.Text = language.OtherCreationLabel;
+                FamiliarizedCreationCheck.Text = language.FamiliarizedCreationCheck;
+                CreateCreationButton.Text = language.CreateCreationButton;
+            }
+            else
+            {
+                NewEmployeeLanguageFinnish language = Language.NewEmployeeLanguageSelectFin();
+                CreateNameLabel.Text = language.CreateNameLabel;
+                FireWorkingDateCreationLabel.Text = language.FireWorkingDateCreationLabel;
+                FireWorkingNumberCreationLabel.Text = language.FireWorkingNumberCreationLabel;
+                WorkSafetyTrainingCreationLabel.Text = language.WorkSafetyTrainingCreationLabel;
+                WorkSafetyTrainingNumberCreationLabel.Text = language.WorkSafetyTrainingNumberCreationLabel;
+                ElectricalSafetyTrainingCreationLabel.Text = language.ElectricalSafetyTrainingCreationLabel;
+                LiveWorkingTrainingCreationLabel.Text = language.LiveWorkingTrainingCreationLabel;
+                FirstAidTrainingCreationLabel.Text = language.FirstAidTrainingCreationLabel;
+                TaxNumberCreationLabel.Text = language.TaxNumberCreationLabel;
+                NokianRenkat1YearCreationLabel.Text = language.NokianRenkat1YearCreationLabel;
+                Esstity1YearCreationLabel.Text = language.Esstity1YearCreationLabel;
+                OtherCreationLabel.Text = language.OtherCreationLabel;
+                FamiliarizedCreationCheck.Text = language.FamiliarizedCreationCheck;
+                CreateCreationButton.Text = language.CreateCreationButton;
             }
         }
     }

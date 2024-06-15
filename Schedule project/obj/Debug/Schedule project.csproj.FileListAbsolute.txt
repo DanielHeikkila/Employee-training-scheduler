@@ -28,3 +28,63 @@ C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy\Schedule project\
 C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy\Schedule project\obj\Debug\Schedule project.csproj.CopyComplete
 C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy\Schedule project\obj\Debug\Schedule project.exe
 C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy\Schedule project\obj\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Schedule project.exe.config
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.csproj.AssemblyReference.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule_project.MainForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule_project.NewEmployeeForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule_project.Properties.Resources.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.csproj.GenerateResource.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.csproj.CoreCompileInputs.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.csproj.CopyComplete
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.TrustInfo.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\obj\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy\Schedule project\bin\Debug\Resources\TYÖNTEKIJÄREKISTERI JTOL.xlsx
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.csproj.AssemblyReference.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule_project.MainForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule_project.NewEmployeeForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule_project.Properties.Resources.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.csproj.GenerateResource.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.csproj.CoreCompileInputs.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Resources\TYÖNTEKIJÄREKISTERI JTOL.xlsx
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Schedule project.exe.config
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.TrustInfo.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2)\Schedule project\obj\Debug\Schedule project.csproj.CopyComplete
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Resources\TYÖNTEKIJÄREKISTERI JTOL.xlsx
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Schedule project.exe.config
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Schedule project.pdb
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.csproj.AssemblyReference.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule_project.MainForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule_project.NewEmployeeForm.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule_project.Properties.Resources.resources
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.csproj.GenerateResource.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.csproj.CoreCompileInputs.cache
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.TrustInfo.xml
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.exe.manifest
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.application
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.csproj.CopyComplete
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.exe
+C:\Users\danie.DANIELS_PC\source\repos\Schedule project - Copy - Copy - Copy (2) - Copy\Schedule project\obj\Debug\Schedule project.pdb

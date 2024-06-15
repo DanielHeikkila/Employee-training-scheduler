@@ -30,82 +30,84 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewEmployeeForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.LanguageSelectionBox = new System.Windows.Forms.ComboBox();
+            this.referenceLabel = new System.Windows.Forms.Label();
             this.CreateCreationButton = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
+            this.OtherCreationLabel = new System.Windows.Forms.Label();
             this.OtherCreationBox = new System.Windows.Forms.TextBox();
             this.FamiliarizedCreationCheck = new System.Windows.Forms.CheckBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.SandvikCreationLabel = new System.Windows.Forms.Label();
             this.SandvikCreationBox = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.NvECreationLabel = new System.Windows.Forms.Label();
             this.NvECreationBox = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.FirstAidTrainingCreationLabel = new System.Windows.Forms.Label();
             this.FirstAidTrainingCreationBox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.LiveWorkingTrainingCreationLabel = new System.Windows.Forms.Label();
             this.LiveWorkingTrainingCreationBox = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.TampereenSahkolaitosCreationLabel = new System.Windows.Forms.Label();
             this.TampereenSahkolaitosCreationBox = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.Esstity1YearCreationLabel = new System.Windows.Forms.Label();
             this.Esstity1YearCreationBox = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.NokianRenkatLOTOCreationLabel = new System.Windows.Forms.Label();
             this.NokianRenkatLOTOCreationBox = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.NokianRenkat1YearCreationLabel = new System.Windows.Forms.Label();
             this.NokianRenkat1YearCreationBox = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.TaxNumberCreationLabel = new System.Windows.Forms.Label();
             this.TaxNumberCreationBox = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.ValttikorttiCreationLabel = new System.Windows.Forms.Label();
             this.ValttikorttiCreationBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.ElectricalSafetyTrainingCreationLabel = new System.Windows.Forms.Label();
             this.ElectricalSafetyTrainingCreationBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.WorkSafetyTrainingNumberCreationLabel = new System.Windows.Forms.Label();
             this.WorkSafetyTrainingNumberCreationBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.WorkSafetyTrainingCreationLabel = new System.Windows.Forms.Label();
             this.WorkSafetyTrainingCreationBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.FireWorkingNumberCreationLabel = new System.Windows.Forms.Label();
             this.FireWorkingNumberCreationBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.FireWorkingDateCreationLabel = new System.Windows.Forms.Label();
             this.FireWorkingDateCreationBox = new System.Windows.Forms.TextBox();
             this.CreateNameLabel = new System.Windows.Forms.Label();
             this.NameCreationBox = new System.Windows.Forms.TextBox();
-            this.referenceLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.LanguageSelectionBox);
             this.panel1.Controls.Add(this.referenceLabel);
             this.panel1.Controls.Add(this.CreateCreationButton);
-            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.OtherCreationLabel);
             this.panel1.Controls.Add(this.OtherCreationBox);
             this.panel1.Controls.Add(this.FamiliarizedCreationCheck);
-            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.SandvikCreationLabel);
             this.panel1.Controls.Add(this.SandvikCreationBox);
-            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.NvECreationLabel);
             this.panel1.Controls.Add(this.NvECreationBox);
-            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.FirstAidTrainingCreationLabel);
             this.panel1.Controls.Add(this.FirstAidTrainingCreationBox);
-            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.LiveWorkingTrainingCreationLabel);
             this.panel1.Controls.Add(this.LiveWorkingTrainingCreationBox);
-            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.TampereenSahkolaitosCreationLabel);
             this.panel1.Controls.Add(this.TampereenSahkolaitosCreationBox);
-            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.Esstity1YearCreationLabel);
             this.panel1.Controls.Add(this.Esstity1YearCreationBox);
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.NokianRenkatLOTOCreationLabel);
             this.panel1.Controls.Add(this.NokianRenkatLOTOCreationBox);
-            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.NokianRenkat1YearCreationLabel);
             this.panel1.Controls.Add(this.NokianRenkat1YearCreationBox);
-            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.TaxNumberCreationLabel);
             this.panel1.Controls.Add(this.TaxNumberCreationBox);
-            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.ValttikorttiCreationLabel);
             this.panel1.Controls.Add(this.ValttikorttiCreationBox);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.ElectricalSafetyTrainingCreationLabel);
             this.panel1.Controls.Add(this.ElectricalSafetyTrainingCreationBox);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.WorkSafetyTrainingNumberCreationLabel);
             this.panel1.Controls.Add(this.WorkSafetyTrainingNumberCreationBox);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.WorkSafetyTrainingCreationLabel);
             this.panel1.Controls.Add(this.WorkSafetyTrainingCreationBox);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.FireWorkingNumberCreationLabel);
             this.panel1.Controls.Add(this.FireWorkingNumberCreationBox);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.FireWorkingDateCreationLabel);
             this.panel1.Controls.Add(this.FireWorkingDateCreationBox);
             this.panel1.Controls.Add(this.CreateNameLabel);
             this.panel1.Controls.Add(this.NameCreationBox);
@@ -113,6 +115,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1096, 747);
             this.panel1.TabIndex = 0;
+            // 
+            // LanguageSelectionBox
+            // 
+            this.LanguageSelectionBox.FormattingEnabled = true;
+            this.LanguageSelectionBox.Items.AddRange(new object[] {
+            "EN",
+            "FI"});
+            this.LanguageSelectionBox.Location = new System.Drawing.Point(1014, 21);
+            this.LanguageSelectionBox.Name = "LanguageSelectionBox";
+            this.LanguageSelectionBox.Size = new System.Drawing.Size(52, 28);
+            this.LanguageSelectionBox.TabIndex = 1;
+            this.LanguageSelectionBox.SelectedValueChanged += new System.EventHandler(this.LanguageSelectionBox_SelectedValueChanged);
+            // 
+            // referenceLabel
+            // 
+            this.referenceLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.referenceLabel.AutoSize = true;
+            this.referenceLabel.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.referenceLabel.Location = new System.Drawing.Point(848, 527);
+            this.referenceLabel.Name = "referenceLabel";
+            this.referenceLabel.Size = new System.Drawing.Size(35, 20);
+            this.referenceLabel.TabIndex = 88;
+            this.referenceLabel.Text = "Ref";
+            this.referenceLabel.Visible = false;
             // 
             // CreateCreationButton
             // 
@@ -124,14 +150,14 @@
             this.CreateCreationButton.UseVisualStyleBackColor = true;
             this.CreateCreationButton.Click += new System.EventHandler(this.CreateCreationButton_Click);
             // 
-            // label16
+            // OtherCreationLabel
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(787, 536);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 20);
-            this.label16.TabIndex = 86;
-            this.label16.Text = "Other";
+            this.OtherCreationLabel.AutoSize = true;
+            this.OtherCreationLabel.Location = new System.Drawing.Point(787, 536);
+            this.OtherCreationLabel.Name = "OtherCreationLabel";
+            this.OtherCreationLabel.Size = new System.Drawing.Size(49, 20);
+            this.OtherCreationLabel.TabIndex = 86;
+            this.OtherCreationLabel.Text = "Other";
             // 
             // OtherCreationBox
             // 
@@ -150,14 +176,14 @@
             this.FamiliarizedCreationCheck.Text = "Familiarized";
             this.FamiliarizedCreationCheck.UseVisualStyleBackColor = true;
             // 
-            // label12
+            // SandvikCreationLabel
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(399, 648);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 20);
-            this.label12.TabIndex = 83;
-            this.label12.Text = "Sandvik";
+            this.SandvikCreationLabel.AutoSize = true;
+            this.SandvikCreationLabel.Location = new System.Drawing.Point(399, 648);
+            this.SandvikCreationLabel.Name = "SandvikCreationLabel";
+            this.SandvikCreationLabel.Size = new System.Drawing.Size(65, 20);
+            this.SandvikCreationLabel.TabIndex = 83;
+            this.SandvikCreationLabel.Text = "Sandvik";
             // 
             // SandvikCreationBox
             // 
@@ -167,14 +193,14 @@
             this.SandvikCreationBox.TabIndex = 15;
             this.SandvikCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label13
+            // NvECreationLabel
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(399, 563);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 20);
-            this.label13.TabIndex = 81;
-            this.label13.Text = "NvE";
+            this.NvECreationLabel.AutoSize = true;
+            this.NvECreationLabel.Location = new System.Drawing.Point(399, 563);
+            this.NvECreationLabel.Name = "NvECreationLabel";
+            this.NvECreationLabel.Size = new System.Drawing.Size(38, 20);
+            this.NvECreationLabel.TabIndex = 81;
+            this.NvECreationLabel.Text = "NvE";
             // 
             // NvECreationBox
             // 
@@ -184,14 +210,14 @@
             this.NvECreationBox.TabIndex = 14;
             this.NvECreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label14
+            // FirstAidTrainingCreationLabel
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(25, 647);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(127, 20);
-            this.label14.TabIndex = 79;
-            this.label14.Text = "First Aid Training";
+            this.FirstAidTrainingCreationLabel.AutoSize = true;
+            this.FirstAidTrainingCreationLabel.Location = new System.Drawing.Point(25, 647);
+            this.FirstAidTrainingCreationLabel.Name = "FirstAidTrainingCreationLabel";
+            this.FirstAidTrainingCreationLabel.Size = new System.Drawing.Size(127, 20);
+            this.FirstAidTrainingCreationLabel.TabIndex = 79;
+            this.FirstAidTrainingCreationLabel.Text = "First Aid Training";
             // 
             // FirstAidTrainingCreationBox
             // 
@@ -201,14 +227,14 @@
             this.FirstAidTrainingCreationBox.TabIndex = 7;
             this.FirstAidTrainingCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label15
+            // LiveWorkingTrainingCreationLabel
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(25, 562);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(159, 20);
-            this.label15.TabIndex = 77;
-            this.label15.Text = "Live Working Training";
+            this.LiveWorkingTrainingCreationLabel.AutoSize = true;
+            this.LiveWorkingTrainingCreationLabel.Location = new System.Drawing.Point(25, 562);
+            this.LiveWorkingTrainingCreationLabel.Name = "LiveWorkingTrainingCreationLabel";
+            this.LiveWorkingTrainingCreationLabel.Size = new System.Drawing.Size(159, 20);
+            this.LiveWorkingTrainingCreationLabel.TabIndex = 77;
+            this.LiveWorkingTrainingCreationLabel.Text = "Live Working Training";
             // 
             // LiveWorkingTrainingCreationBox
             // 
@@ -218,14 +244,14 @@
             this.LiveWorkingTrainingCreationBox.TabIndex = 6;
             this.LiveWorkingTrainingCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label6
+            // TampereenSahkolaitosCreationLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(399, 474);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(177, 20);
-            this.label6.TabIndex = 75;
-            this.label6.Text = "Tampereen Sahkolaitos";
+            this.TampereenSahkolaitosCreationLabel.AutoSize = true;
+            this.TampereenSahkolaitosCreationLabel.Location = new System.Drawing.Point(399, 474);
+            this.TampereenSahkolaitosCreationLabel.Name = "TampereenSahkolaitosCreationLabel";
+            this.TampereenSahkolaitosCreationLabel.Size = new System.Drawing.Size(177, 20);
+            this.TampereenSahkolaitosCreationLabel.TabIndex = 75;
+            this.TampereenSahkolaitosCreationLabel.Text = "Tampereen Sahkolaitos";
             // 
             // TampereenSahkolaitosCreationBox
             // 
@@ -235,14 +261,14 @@
             this.TampereenSahkolaitosCreationBox.TabIndex = 13;
             this.TampereenSahkolaitosCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label7
+            // Esstity1YearCreationLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(399, 389);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 20);
-            this.label7.TabIndex = 73;
-            this.label7.Text = "Essity 1 Year";
+            this.Esstity1YearCreationLabel.AutoSize = true;
+            this.Esstity1YearCreationLabel.Location = new System.Drawing.Point(399, 389);
+            this.Esstity1YearCreationLabel.Name = "Esstity1YearCreationLabel";
+            this.Esstity1YearCreationLabel.Size = new System.Drawing.Size(102, 20);
+            this.Esstity1YearCreationLabel.TabIndex = 73;
+            this.Esstity1YearCreationLabel.Text = "Essity 1 Year";
             // 
             // Esstity1YearCreationBox
             // 
@@ -252,14 +278,14 @@
             this.Esstity1YearCreationBox.TabIndex = 12;
             this.Esstity1YearCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label8
+            // NokianRenkatLOTOCreationLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(399, 297);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(160, 20);
-            this.label8.TabIndex = 71;
-            this.label8.Text = "Nokian Renkat LOTO";
+            this.NokianRenkatLOTOCreationLabel.AutoSize = true;
+            this.NokianRenkatLOTOCreationLabel.Location = new System.Drawing.Point(399, 297);
+            this.NokianRenkatLOTOCreationLabel.Name = "NokianRenkatLOTOCreationLabel";
+            this.NokianRenkatLOTOCreationLabel.Size = new System.Drawing.Size(160, 20);
+            this.NokianRenkatLOTOCreationLabel.TabIndex = 71;
+            this.NokianRenkatLOTOCreationLabel.Text = "Nokian Renkat LOTO";
             // 
             // NokianRenkatLOTOCreationBox
             // 
@@ -269,14 +295,14 @@
             this.NokianRenkatLOTOCreationBox.TabIndex = 11;
             this.NokianRenkatLOTOCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label9
+            // NokianRenkat1YearCreationLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(399, 207);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(165, 20);
-            this.label9.TabIndex = 69;
-            this.label9.Text = "Nokian Renkat 1 Year";
+            this.NokianRenkat1YearCreationLabel.AutoSize = true;
+            this.NokianRenkat1YearCreationLabel.Location = new System.Drawing.Point(399, 207);
+            this.NokianRenkat1YearCreationLabel.Name = "NokianRenkat1YearCreationLabel";
+            this.NokianRenkat1YearCreationLabel.Size = new System.Drawing.Size(165, 20);
+            this.NokianRenkat1YearCreationLabel.TabIndex = 69;
+            this.NokianRenkat1YearCreationLabel.Text = "Nokian Renkat 1 Year";
             // 
             // NokianRenkat1YearCreationBox
             // 
@@ -286,14 +312,14 @@
             this.NokianRenkat1YearCreationBox.TabIndex = 10;
             this.NokianRenkat1YearCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label10
+            // TaxNumberCreationLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(399, 122);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(94, 20);
-            this.label10.TabIndex = 67;
-            this.label10.Text = "Tax Number";
+            this.TaxNumberCreationLabel.AutoSize = true;
+            this.TaxNumberCreationLabel.Location = new System.Drawing.Point(399, 122);
+            this.TaxNumberCreationLabel.Name = "TaxNumberCreationLabel";
+            this.TaxNumberCreationLabel.Size = new System.Drawing.Size(94, 20);
+            this.TaxNumberCreationLabel.TabIndex = 67;
+            this.TaxNumberCreationLabel.Text = "Tax Number";
             // 
             // TaxNumberCreationBox
             // 
@@ -303,14 +329,14 @@
             this.TaxNumberCreationBox.TabIndex = 9;
             this.TaxNumberCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label11
+            // ValttikorttiCreationLabel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(399, 30);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 20);
-            this.label11.TabIndex = 65;
-            this.label11.Text = "Valttikortti";
+            this.ValttikorttiCreationLabel.AutoSize = true;
+            this.ValttikorttiCreationLabel.Location = new System.Drawing.Point(399, 30);
+            this.ValttikorttiCreationLabel.Name = "ValttikorttiCreationLabel";
+            this.ValttikorttiCreationLabel.Size = new System.Drawing.Size(80, 20);
+            this.ValttikorttiCreationLabel.TabIndex = 65;
+            this.ValttikorttiCreationLabel.Text = "Valttikortti";
             // 
             // ValttikorttiCreationBox
             // 
@@ -320,14 +346,14 @@
             this.ValttikorttiCreationBox.TabIndex = 8;
             this.ValttikorttiCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label3
+            // ElectricalSafetyTrainingCreationLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 473);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(183, 20);
-            this.label3.TabIndex = 63;
-            this.label3.Text = "Electrical Safety Training";
+            this.ElectricalSafetyTrainingCreationLabel.AutoSize = true;
+            this.ElectricalSafetyTrainingCreationLabel.Location = new System.Drawing.Point(25, 473);
+            this.ElectricalSafetyTrainingCreationLabel.Name = "ElectricalSafetyTrainingCreationLabel";
+            this.ElectricalSafetyTrainingCreationLabel.Size = new System.Drawing.Size(183, 20);
+            this.ElectricalSafetyTrainingCreationLabel.TabIndex = 63;
+            this.ElectricalSafetyTrainingCreationLabel.Text = "Electrical Safety Training";
             // 
             // ElectricalSafetyTrainingCreationBox
             // 
@@ -337,14 +363,14 @@
             this.ElectricalSafetyTrainingCreationBox.TabIndex = 5;
             this.ElectricalSafetyTrainingCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label4
+            // WorkSafetyTrainingNumberCreationLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 388);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 20);
-            this.label4.TabIndex = 61;
-            this.label4.Text = "Work Safety Training Number";
+            this.WorkSafetyTrainingNumberCreationLabel.AutoSize = true;
+            this.WorkSafetyTrainingNumberCreationLabel.Location = new System.Drawing.Point(25, 388);
+            this.WorkSafetyTrainingNumberCreationLabel.Name = "WorkSafetyTrainingNumberCreationLabel";
+            this.WorkSafetyTrainingNumberCreationLabel.Size = new System.Drawing.Size(216, 20);
+            this.WorkSafetyTrainingNumberCreationLabel.TabIndex = 61;
+            this.WorkSafetyTrainingNumberCreationLabel.Text = "Work Safety Training Number";
             // 
             // WorkSafetyTrainingNumberCreationBox
             // 
@@ -354,14 +380,14 @@
             this.WorkSafetyTrainingNumberCreationBox.TabIndex = 4;
             this.WorkSafetyTrainingNumberCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label5
+            // WorkSafetyTrainingCreationLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 296);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 20);
-            this.label5.TabIndex = 59;
-            this.label5.Text = "Work Safety Training";
+            this.WorkSafetyTrainingCreationLabel.AutoSize = true;
+            this.WorkSafetyTrainingCreationLabel.Location = new System.Drawing.Point(25, 296);
+            this.WorkSafetyTrainingCreationLabel.Name = "WorkSafetyTrainingCreationLabel";
+            this.WorkSafetyTrainingCreationLabel.Size = new System.Drawing.Size(156, 20);
+            this.WorkSafetyTrainingCreationLabel.TabIndex = 59;
+            this.WorkSafetyTrainingCreationLabel.Text = "Work Safety Training";
             // 
             // WorkSafetyTrainingCreationBox
             // 
@@ -371,14 +397,14 @@
             this.WorkSafetyTrainingCreationBox.TabIndex = 3;
             this.WorkSafetyTrainingCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label2
+            // FireWorkingNumberCreationLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 206);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 20);
-            this.label2.TabIndex = 57;
-            this.label2.Text = "Fire Working Number";
+            this.FireWorkingNumberCreationLabel.AutoSize = true;
+            this.FireWorkingNumberCreationLabel.Location = new System.Drawing.Point(25, 206);
+            this.FireWorkingNumberCreationLabel.Name = "FireWorkingNumberCreationLabel";
+            this.FireWorkingNumberCreationLabel.Size = new System.Drawing.Size(158, 20);
+            this.FireWorkingNumberCreationLabel.TabIndex = 57;
+            this.FireWorkingNumberCreationLabel.Text = "Fire Working Number";
             // 
             // FireWorkingNumberCreationBox
             // 
@@ -388,14 +414,14 @@
             this.FireWorkingNumberCreationBox.TabIndex = 2;
             this.FireWorkingNumberCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // label1
+            // FireWorkingDateCreationLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 121);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 20);
-            this.label1.TabIndex = 55;
-            this.label1.Text = "Fire Working Date";
+            this.FireWorkingDateCreationLabel.AutoSize = true;
+            this.FireWorkingDateCreationLabel.Location = new System.Drawing.Point(25, 121);
+            this.FireWorkingDateCreationLabel.Name = "FireWorkingDateCreationLabel";
+            this.FireWorkingDateCreationLabel.Size = new System.Drawing.Size(137, 20);
+            this.FireWorkingDateCreationLabel.TabIndex = 55;
+            this.FireWorkingDateCreationLabel.Text = "Fire Working Date";
             // 
             // FireWorkingDateCreationBox
             // 
@@ -422,18 +448,6 @@
             this.NameCreationBox.TabIndex = 0;
             this.NameCreationBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Control_KeyUp);
             // 
-            // referenceLabel
-            // 
-            this.referenceLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.referenceLabel.AutoSize = true;
-            this.referenceLabel.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.referenceLabel.Location = new System.Drawing.Point(848, 527);
-            this.referenceLabel.Name = "referenceLabel";
-            this.referenceLabel.Size = new System.Drawing.Size(35, 20);
-            this.referenceLabel.TabIndex = 88;
-            this.referenceLabel.Text = "Ref";
-            this.referenceLabel.Visible = false;
-            // 
             // NewEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -459,39 +473,40 @@
         private System.Windows.Forms.Label CreateNameLabel;
         private System.Windows.Forms.TextBox NameCreationBox;
         private System.Windows.Forms.CheckBox FamiliarizedCreationCheck;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label SandvikCreationLabel;
         private System.Windows.Forms.TextBox SandvikCreationBox;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label NvECreationLabel;
         private System.Windows.Forms.TextBox NvECreationBox;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label FirstAidTrainingCreationLabel;
         private System.Windows.Forms.TextBox FirstAidTrainingCreationBox;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label LiveWorkingTrainingCreationLabel;
         private System.Windows.Forms.TextBox LiveWorkingTrainingCreationBox;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label TampereenSahkolaitosCreationLabel;
         private System.Windows.Forms.TextBox TampereenSahkolaitosCreationBox;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Esstity1YearCreationLabel;
         private System.Windows.Forms.TextBox Esstity1YearCreationBox;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label NokianRenkatLOTOCreationLabel;
         private System.Windows.Forms.TextBox NokianRenkatLOTOCreationBox;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label NokianRenkat1YearCreationLabel;
         private System.Windows.Forms.TextBox NokianRenkat1YearCreationBox;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label TaxNumberCreationLabel;
         private System.Windows.Forms.TextBox TaxNumberCreationBox;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label ValttikorttiCreationLabel;
         private System.Windows.Forms.TextBox ValttikorttiCreationBox;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label ElectricalSafetyTrainingCreationLabel;
         private System.Windows.Forms.TextBox ElectricalSafetyTrainingCreationBox;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label WorkSafetyTrainingNumberCreationLabel;
         private System.Windows.Forms.TextBox WorkSafetyTrainingNumberCreationBox;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label WorkSafetyTrainingCreationLabel;
         private System.Windows.Forms.TextBox WorkSafetyTrainingCreationBox;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label FireWorkingNumberCreationLabel;
         private System.Windows.Forms.TextBox FireWorkingNumberCreationBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label FireWorkingDateCreationLabel;
         private System.Windows.Forms.TextBox FireWorkingDateCreationBox;
         private System.Windows.Forms.Button CreateCreationButton;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label OtherCreationLabel;
         private System.Windows.Forms.TextBox OtherCreationBox;
         private System.Windows.Forms.Label referenceLabel;
+        private System.Windows.Forms.ComboBox LanguageSelectionBox;
     }
 }
